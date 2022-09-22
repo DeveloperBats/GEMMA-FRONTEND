@@ -1,13 +1,15 @@
-import React from 'react'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import React from "react"
+import { Route, Routes } from "react-router-dom"
+import Register from "../screens/Register"
+import Login from "../screens/Login"
 
 const AuthRouter = () => {
-  return (
-    <Router>
-        <Route path="/login"/>
-        <Route path="/register"/>
-    </Router>
-  )
+    return (
+        <Routes location={"/login"}>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+        </Routes>
+    )
 }
 
 export default AuthRouter

@@ -1,9 +1,8 @@
-import React from 'react';
-import AppLayout from './screens/AppLayout';
-
+import React from "react"
+import AppLayout from "./screens/AppLayout"
 
 function App() {
-  return <AppLayout/>;
+    return <AppLayout />
 }
 
-export default App;
+export default App

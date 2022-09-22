@@ -1,0 +1,44 @@
+@import "sass/index.scss";
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 2px 4px rgba($color: $secondary-color, $alpha: 1);
+    background: $primary-color;
+    padding: 0 30px;
+
+    &__logo {
+        display: flex;
+        width: 20%;
+        height: 100%;
+        & .logo__image {
+            width: 60px;
+            height: 100%;
+            fill: $secondary-color;
+            * {
+                height: 100%;
+            }
+        }
+        & .logo__title {
+            font-family: $exo2VariableFont;
+            font-size: 40px;
+            color: $secondary-color;
+            align-self: center;
+        }
+    }
+
+    &__separator {
+        display: flex;
+        width: 18%;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        width: 60%;
+    }
+}

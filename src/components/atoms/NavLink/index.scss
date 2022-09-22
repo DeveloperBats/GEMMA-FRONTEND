@@ -1,0 +1,33 @@
+@import "sass/index.scss";
+
+.navLink {
+    text-decoration: none;
+    color: $secondary-color;
+    transition: all ease 0.3s;
+    font-family: $exo2VariableFont;
+    font-size: 24px;
+    width: 100%;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &.primary {
+        position: relative;
+        background-color: black;
+        border-bottom-right-radius: 10px;
+        /* border-top: 1px solid $secondary-color; */
+        border-bottom: 3px solid $secondary-color;
+        /* border-left: 1px solid $secondary-color; */
+        border-right: 3px solid $secondary-color;
+        padding: 2px;
+        &:hover {
+            text-decoration: none;
+            border-bottom: 6px solid $secondary-color;
+            border-right: 6px solid $secondary-color;
+        }
+        &:active {
+            border: 0;
+        }
+    }
+}

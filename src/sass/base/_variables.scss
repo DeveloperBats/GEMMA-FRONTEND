@@ -1,0 +1,15 @@
+/* COLORS */
+
+$primary-color: #000000;
+$secondary-color: #ffa600;
+/* $secondary-color: #00b800; */
+$background-color: #252525;
+$white-color: #ffffff;
+
+/* FONTS */
+@font-face {
+    font-family: exo2VariableFont;
+    src: url("../../assets/fonts/Exo_2/Exo2-VariableFont_wght.ttf");
+}
+
+$exo2VariableFont: exo2VariableFont;

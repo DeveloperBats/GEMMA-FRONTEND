@@ -1,0 +1,11 @@
+/* RESETTING THE STYLES OF THE PAGE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+    text-decoration: none;
+}
