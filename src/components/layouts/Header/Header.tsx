@@ -1,6 +1,5 @@
 import React from "react"
 import { Diamond } from "@mui/icons-material"
-import "./index.scss"
 import NavLink from "components/atoms/NavLink/NavLink"
 
 const Header = () => {

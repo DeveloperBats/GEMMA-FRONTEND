@@ -1,0 +1,29 @@
+.customInput {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 300px;
+
+    & input {
+        background-color: $primary-color;
+        border-radius: 8px;
+        padding: 10px 5px;
+        width: 100%;
+        outline: 2px solid $white-color;
+        transition: all ease 0.4s;
+        border: 0;
+        &:hover {
+            outline: 2px solid $secondary-color;
+        }
+    }
+
+    &--name {
+        font-size: 1.5rem;
+    }
+
+    &--error {
+        font-size: 0.8rem;
+        color: $error-color;
+    }
+}
